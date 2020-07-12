@@ -9,7 +9,7 @@ from lib.utils import get_json, dump, diff, get_indexed_data
 
 NEW_AUTOMATION = "oldauto" not in sys.argv
 VERB_TRANSFORM = {'dispel': 'dispelled', 'discharge': 'discharged'}
-SPELL_AUTOMATION_SRC = "https://raw.githubusercontent.com/avrae/avrae-spells/master/spells.json"
+SPELL_AUTOMATION_SRC = "https://raw.githubusercontent.com/Deaglet/avrae-spells/master/spells.json"
 IGNORED_FILES = ('3pp', 'stream')
 
 log = logging.getLogger("spells")
